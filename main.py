@@ -16,7 +16,7 @@ import os
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
 
 options = webdriver.ChromeOptions()
-options.headless = False
+options.headless = True
 options.add_argument(f'user-agent={user_agent}')
 options.add_argument("--window-size=1920,1080")
 options.add_argument('--ignore-certificate-errors')
@@ -104,7 +104,7 @@ def fetch_data(site):
 
     driver.get(url)
     # driver.get_screenshot_as_file('/temp/fetch.png') 
-    time.sleep((1 * 60))
+    # time.sleep((1 * 60))
     page_source = driver.page_source
     driver.quit()
     return page_source
