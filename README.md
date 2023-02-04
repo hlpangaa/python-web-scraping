@@ -1,11 +1,9 @@
-1. scheduler
-2. controller - handle the request
-3. bs4 data format handling - hyperlink breakdown - function per site
-4. sites list
-5. utility functions
+# Flight Price Alert
 
-# Documentations
+## Application Workflow
+- Programed to harvest flight price data from [Experdia](www.expedia.com.hk) and [Skyscanner](www.skyscanner.com.hk) using Beautiful soup and Selenium, scheduled to run daily with Macbook's built-in job automater.
+- Cleaned, normalized, and transformed the raw data into usable information in Pandas and Numpy, designed a alert trigger when the expected price is hitted.
 
-https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-
-table vs key-values structure
+## Requirements
+* Python >= 3.1
+* Python Libraries: `bs4` `requests` `re` `selenium` `urllib` `datetime` `json` `pyshorteners` `pandas` `numpy` `os` `time`
