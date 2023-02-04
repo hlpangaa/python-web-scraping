@@ -11,15 +11,13 @@
 
 ## Automation in Macbook
 - Search "Automator" in application, open it.
-<img scr="./assets/0.png"></img>
+<img alt="screenshoot"  src="https://raw.githubusercontent.com/hlpangaa/python-web-scraping/master/assets/0.png" align="right" />
 - Create a action from navigation bar in the left, utilities>Run Shell Scripts. 
 - Type the script to run your python file and save as a application.
-  ```shell
-  python3 @yourPath
-  ```
-<img scr="./assets/1.png"></img>
+  ```shellpython3 @yourPath```
+<img alt="screenshoot"  src="https://raw.githubusercontent.com/hlpangaa/python-web-scraping/master/assets/1.png" align="right" />
 - Search "Login Items", it should be in your macbook setting. Create a login Items of your application that your created.
-<img scr="./assets/2.png"></img>
+<img alt="screenshoot"  src="https://raw.githubusercontent.com/hlpangaa/python-web-scraping/master/assets/2.png" align="right" />
 - Now you can run the script everytime you turn on your computer.
 
 ## Requirements
